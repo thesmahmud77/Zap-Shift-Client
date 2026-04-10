@@ -1,2 +1,17 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+* {
+  @apply bg-[#EAECED] text-black;
+}
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  /* background Color */
+  --color-Primary: #caeb66;
+  --color-Secondary: #03373d;
+  --color-BgPrimary: #eaeced;
+  --color-BgBlack: #0b0b0b;
+  --color-BgWhite: #ffffff;
+}
